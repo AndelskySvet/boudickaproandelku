@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boudička pro Andělku</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 1s forwards;
+        }
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        p {
+            line-height: 1.8;
+            text-align: justify;
+        }
+        .section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #ecf0f1;
+            border-radius: 8px;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 1s forwards;
+            animation-delay: 0.3s;
+        }
+        .section img {
+            width: 30%;
+            border-radius: 8px;
+            margin-left: 20px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .logo-container {
+            text-align: center;
+            margin-bottom: 20px;
+            opacity: 0;
+            animation: fadeInUp 1s forwards;
+            animation-delay: 0.5s;
+        }
+        .logo-container a img {
+            width: 150px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <a href="https://andelsky-svet.cz" target="_blank"><img src="andelsky_svet_logo.png" alt="Andělský Svět"></a>
+            <a href="https://www.slzazvirat.cz" target="_blank"><img src="slza_zvirat_logo.png" alt="Slza Zvířat"></a>
+            <a href="https://www.purina.cz" target="_blank"><img src="purina_logo.png" alt="Purina"></a>
+        </div>
+        
+        <h1>Projekt "Boudička pro Andělku" – Inovativní pomoc toulavým kočičkám</h1>
+        
+        <div class="section">
+            <div>
+                <h2>Situace toulavých kočiček</h2>
+                <p>V České republice žije velké množství toulavých kočiček, které nemají přístup k pravidelné potravě, veterinární péči ani bezpečnému úkrytu. Kočky se nekontrolovaně množí. Jen malá skupina lidí kastruje. Bohužel, situace toulavých kočiček je často přehlížena, a přestože se jim mnoho lidí snaží pomoci, neexistuje systematický přístup, který by se zaměřil na jejich dlouhodobou ochranu a regulaci populace.</p>
+            </div>
+            <img src="project_cat1.jpg" alt="Toulavá kočička">
+        </div>
+
+        <div class="section">
+            <div>
+                <h2>Cíl projektu</h2>
+                <p>Z toho důvodu inicioval Andělský Svět z.s., za masivní podpory Nadačního fondu Slza zvířat, společnosti Purina a města Cvikov, projekt "Boudička pro Andělku", jehož cílem je vytvořit monitorovaná krmná místa, kde se budou o toulavé kočičky starat vyškolení dobrovolníci. Tento projekt spojuje pravidelné krmení, kastrační programy, čipování a osvětu veřejnosti, což přispívá nejen k ochraně samotných kočiček, ale i k lepšímu soužití s lidmi ve městech a obcích.</p>
+            </div>
+            <img src="project_cat2.jpg" alt="Kočička u krmného místa">
+        </div>
+
+        <div class="section">
+            <div>
+                <h2>Pilotní projekt</h2>
+                <p>První pilotní projekt ve městě Cvikov. Díky spolupráci výše zmíněných firem a vedením města Cvikov, s odborníky a dalšími organizacemi připravujeme spuštění prvního oficiálního monitorovaného krmného místa v České republice. To bude sloužit jako možný vzor pro další města a obce, které by se k projektu mohly připojit.</p>
+            </div>
+            <img src="project_cat3.jpg" alt="Kočička v bezpečí">
+        </div>
+
+        <div class="section">
+            <div>
+                <h2>Budoucnost projektu</h2>
+                <p>Naše vize je jasná – chceme, aby v každém městě a obci vzniklo alespoň jedno monitorované krmné místo, kde budou kočičky v bezpečí, pod dohledem a s návazností na kastrační programy. K tomu vzniká i mobilní aplikace CATEmergencyAS, která zobrazí mapu těchto míst a poskytne užitečné informace veřejnosti.</p>
+            </div>
+            <img src="project_cat4.jpg" alt="Mobilní aplikace pro kočičky">
+        </div>
+    </div>
+</body>
+</html>
